@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>filter</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>body{background-color:lightblue;}table{background-color: whitesmoke}</style>
+    </head>
+    <body>
+        <form method="post" action="./search.jsp">
+            <input type="text" name="search"> 
+            <input type="submit" value="Go to Search">
+          <!-- <script laguage=javascript/text">
+         
+                btnsearch.onclick{
+                }
+                }
+            </script>-->
+          <br/>
+          <br/>
+            Filter By:
+        <br>
+        <br>
+        <!-- Price <a href="filtermaxprice.jsp" target="main">▲</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="filterminprice.jsp" target="main">▼</a>&nbsp;&nbsp;&nbsp;&nbsp; -->
+        &nbsp;&nbsp;&nbsp;&nbsp;Gold Weight 
+        <a href="filtermaxgldwt.jsp" target="main">▲</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="filtermingldwt.jsp" target="main">▼</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;Diamond Weight 
+        <a href="filtermaxdia.jsp" target="main">▲</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;<a href="filtermindia.jsp" target="main">▼</a>
+        
+        
+        &nbsp;&nbsp;&nbsp;&nbsp;<a href="filtersold.jsp" target="main"><b>Sold</b></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;<a href="filteravailable.jsp" target="main"><b>Available</b></a>
+        
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" value="Home" onclick="window.location='yes.jsp';">
+        <br/>
+        <br/>
+        <div><iframe src="" width="900" name="main" height="750"></iframe></div>
+        <br>
+        <br>
+        </form>
+    </body>
+</html>
